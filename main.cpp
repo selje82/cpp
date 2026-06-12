@@ -1,6 +1,10 @@
 #include <iostream>
+#include <string>
 
 int main() {
-    std::cout << "Hello Fedora" << std::endl;
+    std::string name;
+    std::cout << "What is your name?" << std::endl;
+    std::getline(std::cin, name); 
+    std::cout << "Hello, " << name << "!\n" << std::endl;
     return 0;
 }
