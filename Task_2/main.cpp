@@ -15,12 +15,11 @@ int main() {
 
     // Checking the temperature, and outputting different results based on if/else if/else statements. 
     if (tempFahrenheit <= 32) {
-        std::cout << "It's freezing outside, remember your coat. The temperature is: " << tempFahrenheit << " Fahrenheit degrees." << std::endl;
+        std::cout << "It's freezing outside, remember your coat." << std::endl;
     } else if (tempFahrenheit >= 86) {
-        std::cout << "It's a hot day today. Remember suncream. The temperature is: " << tempFahrenheit << " Fahrenheit degrees." << std::endl;
-    } else {
-        std::cout << "The temperature today is: " << tempFahrenheit << " Fahrenheit degrees." << std::endl;
-    }
+        std::cout << "It's a hot day today. Remember suncream." << std::endl;
+    } 
+    std::cout << "The temperature today is: " << tempFahrenheit << " Fahrenheit degrees." << std::endl;
     return 0;
 
 }
