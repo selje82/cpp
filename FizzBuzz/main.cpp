@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 int main() {
     // FizzBuzz logic
@@ -16,5 +17,6 @@ int main() {
             std::cout << num << std::endl;
         }
     }
+    
     return 0;
 }
