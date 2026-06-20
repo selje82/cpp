@@ -7,4 +7,6 @@ void display_misses(int misses);
 void greet();
 // Function to end the game and output text.
 void end_game(std::string codeword, std::string answer);
+// Function to display status of incorrect answer and incorrect guesses.
+void display_status(std::vector<char> incorrect, std::string answer);
 

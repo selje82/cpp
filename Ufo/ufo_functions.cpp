@@ -134,7 +134,7 @@ void greet() {
     std::cout << "=============" << std::endl;
     std::cout << "UFO: The Game" << std::endl;
     std::cout << "=============" << std::endl;
-    std::cout << "Instructions: save your friend from alien abduction by guessing the letters in the codeword." << std::endl;
+    std::cout << "Instructions: save your friend from alien abduction by guessing the letters in the codeword.\n" << std::endl;
 
 }
 
@@ -146,3 +146,21 @@ void end_game(std::string codeword, std::string answer) {
         std::cout << "Oh no! The UFO just flew away with another person!" << std::endl;
     }
 }
+
+void display_status(std::vector<char> incorrect, std::string answer) {
+    // Outputs letters that the player has tried to guess with an for-loop over incorrect vector. 
+    std::cout << "\nIncorrect Guesses:" << std::endl;
+
+    for (int i = 0; i < incorrect.size(); i++) {
+      std::cout << incorrect[i] << ' ';
+      }
+      std::cout << " \n" << std::endl;
+
+    // Outputs letters that the player has tried in the string of answer. 
+    std::cout << "\nCodeword:\n" << std::endl;
+
+    for (int i = 0; i < answer.length(); i++) {
+      std::cout << answer[i] << ' ';
+      }
+      std::cout << " \n" << std::endl;
+    }
