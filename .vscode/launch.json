@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/home/glselj/dev/github/cpp/FizzBuzz",
-      "program": "/home/glselj/dev/github/cpp/FizzBuzz/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "c:/Users/glselj/Programmering/cpp/FizzBuzz",
+      "program": "c:/Users/glselj/Programmering/cpp/FizzBuzz/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
